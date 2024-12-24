@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanzhou Runze Packaging Co., Ltd.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: #fff;
+            text-align: center;
+            padding-top: 150px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .contact-form button {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quanzhou Runze Packaging Co., Ltd.</h1>
+        <p>Exquisite products deserve excellent packaging. Runze Packaging makes quality shine brilliantly.</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#products">Product Showcase</a>
+        <a href="#technology">Technology</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="hero">
+        <h2>Your Trusted Partner in Packaging Solutions</h2>
+        <p>Over 10 Years of Expertise and Innovation</p>
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded in 2013, Quanzhou Runze Packaging Co., Ltd. specializes in high-quality packaging solutions. With advanced equipment and a dedicated team, we serve over 200 clients across various industries.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Packaging Design</li>
+            <li>Printing Solutions</li>
+            <li>Customized Services</li>
+            <li>Premium Gift Boxes</li>
+            <li>Eco-friendly Packaging</li>
+            <li>Commercial Printing</li>
+        </ul>
+    </section>
+    <section id="products">
+        <h2>Product Showcase</h2>
+        <p>Explore our range of premium gift boxes, eco-friendly packaging, and custom-designed solutions.</p>
+    </section>
+    <section id="technology">
+        <h2>Technology & Equipment</h2>
+        <p>Our state-of-the-art facilities include German Koenig & Bauer five-color presses, Manroland six-color presses, and UV coating machines, ensuring top-quality results.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Maoji Middle Road, Fumaoling Development Zone, Nan'an City, Quanzhou City, Fujian Province</p>
+        <p>Email: <a href="mailto:runzepacking@gmail.com">runzepacking@gmail.com</a></p>
+        <p>Phone: +86 15392163536 (Chinese), +86 15880709767 (English)</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Quanzhou Runze Packaging Co., Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
